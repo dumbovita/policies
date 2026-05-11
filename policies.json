@@ -1,0 +1,103 @@
+{
+  "policies": {
+    "DisableFirefoxAccounts": true,
+    "DisableFirefoxStudies": true,
+    "DisableTelemetry": true,
+    "DisableFeedbackCommands": true,
+    "DisableProfileImport": true,
+    "DontCheckDefaultBrowser": true,
+    "NoDefaultBookmarks": true,
+    "SearchSuggestEnabled": false,
+
+    "FirefoxHome": {
+      "Search": false,
+      "TopSites": false,
+      "SponsoredTopSites": false,
+      "Highlights": false,
+      "Pocket": false,
+      "Stories": false,
+      "SponsoredPocket": false,
+      "SponsoredStories": false,
+      "Snippets": false,
+      "Locked": false
+    },
+
+    "UserMessaging": {
+      "ExtensionRecommendations": false,
+      "FeatureRecommendations": false,
+      "UrlbarInterventions": false,
+      "SkipOnboarding": true,
+      "MoreFromMozilla": false,
+      "FirefoxLabs": false,
+      "Locked": false
+    },
+
+    "AIControls": {
+      "Default": {
+        "Value": "blocked",
+        "Locked": false
+      },
+      "Translations": {
+        "Value": "blocked",
+        "Locked": false
+      },
+      "PDFAltText": {
+        "Value": "blocked",
+        "Locked": false
+      },
+      "SidebarChatbot": {
+        "Value": "blocked",
+        "Locked": false
+      },
+      "SmartTabGroups": {
+        "Value": "blocked",
+        "Locked": false
+      },
+      "LinkPreviewKeyPoints": {
+        "Value": "blocked",
+        "Locked": false
+      },
+      "SmartWindow": {
+        "Value": "blocked",
+        "Locked": false
+      }
+    },
+
+    "EnableTrackingProtection": {
+      "Value": true,
+      "Locked": false,
+      "Cryptomining": true,
+      "Fingerprinting": true,
+      "EmailTracking": true,
+      "SuspectedFingerprinting": true,
+      "Category": "strict",
+      "BaselineExceptions": true,
+      "ConvenienceExceptions": true
+    },
+
+    "HttpsOnlyMode": "enabled",
+
+    "Preferences": {
+      "identity.fxaccounts.toolbar.enabled": {
+        "Value": false,
+        "Status": "default"
+      },
+      "browser.tabs.firefox-view": {
+        "Value": false,
+        "Status": "default"
+      },
+      "browser.newtabpage.activity-stream.showSponsored": {
+        "Value": false,
+        "Status": "default"
+      },
+      "browser.newtabpage.activity-stream.showSponsoredTopSites": {
+        "Value": false,
+        "Status": "default"
+      },
+      "extensions.pocket.enabled": {
+        "Value": false,
+        "Status": "default"
+      }
+    }
+  }
+}
